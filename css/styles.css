@@ -1,12 +1,8 @@
-@import bootstrap.css;
-
 body {
   font-family: sans-serif;
   margin: 0;
   background-color: black;
 }
-
-
 
 /* HEADING */
 
@@ -32,7 +28,6 @@ h3 {
   font-size: 3vw;
 }
 
-
 /* MAIN SECTIONS */
 
 .main-img {
@@ -47,7 +42,7 @@ h2 {
   font-weight: normal;
   margin: 0;
   font-size: 34px;
-  color: #BBB;
+  color: #bbb;
 }
 
 .img-name {
@@ -60,6 +55,6 @@ h2 {
 .img-link {
   display: block;
   margin: 0 auto 5px;
-  color: #BBB;
+  color: #bbb;
   font-size: 16px;
 }
