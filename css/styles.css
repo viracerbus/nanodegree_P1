@@ -1,0 +1,65 @@
+@import bootstrap.css;
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+
+
+/* HEADING */
+
+.udacity-logo {
+  height: 10vw;
+  padding: 5px 0 0;
+}
+
+.person {
+  color: #747704;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 5vw;
+  padding: 10px 0 0;
+}
+
+h3 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 3vw;
+}
+
+
+/* MAIN SECTIONS */
+
+.main-img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100%;
+}
+
+h2 {
+  padding: 20px 0 10px 10px;
+  border: 1px;
+  font-weight: normal;
+  margin: 0;
+  font-size: 34px;
+  color: #BBB;
+}
+
+.img-name {
+  display: block;
+  margin: 0 auto 5px;
+  color: #747704;
+  font-size: 30px;
+}
+
+.img-link {
+  display: block;
+  margin: 0 auto 5px;
+  color: #BBB;
+  font-size: 16px;
+}

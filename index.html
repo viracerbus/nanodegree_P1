@@ -5,48 +5,110 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
-        <main>
-            <header class="content">
-                <div class="header-content">
-                    <img class="udacity-logo" src="http://cameronwp.github.io/cpcom/static/udacity_logo.svg" alt="Udacity Logo">
+        <div class="container">
+            <header class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <img class="img-responsive udacity-logo" src="images/udacity-logo.gif" alt="Udacity Logo">
                 </div>
-                <div class="header-content person">
-                    <h1>KEVIN DEXTER</h1>
-                    <h2>FRONT-END NINJA</h2>
+                <div class="col-md-8 com-sm-8 col-xs-8 text-uppercase text-right person">
+                    <h1>Kevin Dexter</h1>
+                    <h3>Front-end Pirate</h3>
                 </div>
             </header>
-            <section class="content large-disp">
-                <div>
-                    <img class="main-img" src="http://www.savetheinternet.com/sites/default/files/styles/781wide_nocrop/public/field/image/victory.jpg?itok=COrhnUHb" alt="I win">
+            <div class"row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/banner-img.jpg" alt="Banner image">
                 </div>
             </section>
-            <section class="content">
-                <div class="feat-work">
-                    <h3>Featured Work</h3>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Featured Work</h2>
                 </div>
-                <div class="content">
-                    <div id="left-sub" class="feat-work-sub">
-                        <img class="work-img" src="http://img1.wikia.nocookie.net/__cb20140506233242/epicrapbattlesofhistory/images/6/63/Luffy.jpg" alt="">
-                        <p class="img-name">Appify</p>
-                        <a class="img-link" href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
-                    </div>
-                    <div id="mid-sub" class="feat-work-sub">
-                        <img class="work-img" src="http://img1.wikia.nocookie.net/__cb20140506233242/epicrapbattlesofhistory/images/6/63/Luffy.jpg" alt="">
-                        <p class="img-name">Sunflower</p>
-                        <a class="img-link" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
-                    </div>
-                    <div id="right-sub" class="feat-work-sub">
-                        <img class="work-img" src="http://img1.wikia.nocookie.net/__cb20140506233242/epicrapbattlesofhistory/images/6/63/Luffy.jpg" alt="">
-                        <p class="img-name">Bokeh</p>
-                        <a class="img-link" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
-                    </div>
-                    <span class="stretch"></span>
+            </div>
+            <section class="row text-center">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="images/comp-img.jpg" alt="Computer image" data-toggle="modal" data-target="#comp-mod">
+                    <p class="img-name">Computer</p>
+                    <a class="img-link" href="https://github.com/udacity/Appify/">https://github.com/udacity/Computer/</a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="images/tab-img.jpg" alt="Tablet image" data-toggle="modal" data-target="#tab-mod">
+                    <p class="img-name">Tablet</p>
+                    <a class="img-link" href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Tablet/</a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img class="img-responsive" src="images/phone-img.jpg" alt="Phone image" data-toggle="modal" data-target="#phone-mod">
+                    <p class="img-name">Phone</p>
+                    <a class="img-link" href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Phone/</a>
                 </div>
             </section>
-        </main>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="comp-mod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Computer App Page</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/comp-img.jpg">
+                This will one day be devoted to an elegant summary on a masterfully written app.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="tab-mod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Tablet App Page</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/tab-img.jpg">
+                This will one day contain kind words describing the intricate details of the finer things in life.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="phone-mod" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Phone App Page</h4>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive" src="images/phone-img.jpg">
+                This will always be just a phone. Not too exciting I'm afraid.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </body>
 </html>
 
